@@ -12,7 +12,9 @@
 	text-align: center}
 
 
-#primary.nav-up{top:-80px}
+#primary.nav-up {
+	top:-80px
+}
 
 #primary li{
 	padding-right:60px;
