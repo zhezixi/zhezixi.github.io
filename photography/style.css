@@ -514,7 +514,7 @@ img {
       .header-area .menu-content-area .header-social-area {
         margin-right: 15px; } }
   .header-area.sticky {
-	  background:rgba(255,255,255,.97); }
+	  background:rgba(255,255,255,.5); }
   @media only screen and (max-width: 767px) {
     .header-area {
       padding: 10px 0; } }
