@@ -299,9 +299,9 @@ a:hover, a:active, a:focus {
   -webkit-align-items: center;
   -ms-flex-align: center;
    align-items: center;
-  height: 60vh;
+  height: 65vh;
   position: relative;
-  padding-top: 80px;
+  padding-top: 120px;
 }
 
 #home img {
