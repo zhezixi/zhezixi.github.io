@@ -3,11 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-
-
     <title>My work - DR.MEOW</title>
-
-
 
     <meta name="designer" content="Bingyi Liu">
 
@@ -41,12 +37,25 @@
                 'overlayColor': '#fff'
             });
         });</script>
-
+  <style>
+     #primary {
+    display: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background: rgba(255,255,255,.97);
+    border-bottom: 1px solid #eee;
+    z-index: 9999;
+    transition: top .4s ease-in-out;
+    text-align: center;
+}
+    </style>
 </head>
 
 <body>
     <!-- NAVIGATION SECTION -->
-    <div class="navbar custom-navbar navbar-fixed-top" role="navigation">
+    <div id="primary" class="navbar custom-navbar navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-toggle" href="../">Home</a>
