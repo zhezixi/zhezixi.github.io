@@ -14,9 +14,6 @@ html, body {
   height: 100%;
 }
 
-.navi-link {
-    display: none
-}
 
 /*---------------------------------------
   Typorgraphy
@@ -250,7 +247,7 @@ img{
 }
 
 .custom-navbar .nav li a {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: normal;
   color: #656565;
   letter-spacing: 1px;
@@ -258,10 +255,11 @@ img{
   transition: all ease-in-out 0.4s;
   padding: 0;
   margin: 15px;
-  margin-right: 40px;
+
 }
 
-.custom-navbar .navbar-nav > li > a:hover, .custom-navbar .navbar-nav > li > a:focus {
+.custom-navbar .navbar-nav > li > a:hover, 
+.custom-navbar .navbar-nav > li > a:focus {
   background-color: white;
   color: #454545;
 }
@@ -277,7 +275,8 @@ img{
   transition: width .3s ease, background-color .3s ease;
 }
 
-.custom-navbar .navbar-nav li a:hover:after, .custom-navbar .nav li.active > a:after {
+.custom-navbar .navbar-nav li a:hover:after, 
+.custom-navbar .nav li.active > a:after {
   background: #000000;
   color: #ffffff;
   width: 100%;
@@ -301,6 +300,7 @@ img{
   background: #000000;
   border-color: transparent;
 }
+
 
 @media(min-width:768px) {
     .custom-navbar {
@@ -429,3 +429,7 @@ img{
   }
 
 }
+
+
+
+
