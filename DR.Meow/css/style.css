@@ -144,9 +144,24 @@ hr{
 /*---------------------------------------
     OVERVIEW
 -----------------------------------------*/
+    #primary {
+    display: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background: rgba(255,255,255,.97);
+    border-bottom: 1px solid #eee;
+    z-index: 9999;
+    transition: top .4s ease-in-out;
+    text-align: center;
+}
+#primary.nav-up {
+    top: -80px;
+}
 
 .container{
-  display:grid;
+  /*display:grid;*/
   grid-template-rows:30px,100px,repeat(7 auto) 50px 30px;
   grid-template-columns: 20px repeat(3 auto) 20px;
   margin:auto;
