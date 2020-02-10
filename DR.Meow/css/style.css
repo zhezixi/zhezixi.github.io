@@ -433,7 +433,7 @@ img{
   margin-top: 25px;
 }
   h4 {
-  text_align: center;
+  text-align: center;
 }
 
 }
@@ -450,7 +450,7 @@ img{
     height: 85px;
   }
 h4 {
-  text_align: center;
+  text-align: center;
 }
 
 }
