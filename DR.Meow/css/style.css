@@ -432,6 +432,9 @@ img{
   background-color: white;
   margin-top: 25px;
 }
+  h4 {
+  text_align: center;
+}
 
 }
 
@@ -446,6 +449,9 @@ img{
     width: 85px;
     height: 85px;
   }
+h4 {
+  text_align: center;
+}
 
 }
 
