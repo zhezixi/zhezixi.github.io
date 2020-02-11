@@ -451,6 +451,9 @@ img{
     display: inline-block;
     margin-bottom: 5px;
   }
+  .research h4 {
+    text-align: center;
+  }
 
 }
 
