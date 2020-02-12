@@ -557,12 +557,12 @@ a:hover, a:active, a:focus {
 
 }
 
-
 @media (max-width: 357px) {
 
   h1 {
     font-size: 28px;
   }
+  h2 {font-size:25px;}
 
   #about .col-md-4 a {
     width: 85px;
