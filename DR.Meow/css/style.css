@@ -96,8 +96,9 @@ p {
 
 .word_box_title{
   color: #575757;
-  font-size: 19px;
-  line-height: 30px;
+  font-size: 21px;
+  font-weight:300;
+  line-height: 40px;
   margin-top: 0px;
 }
 
