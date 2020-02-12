@@ -485,11 +485,13 @@ a:hover, a:active, a:focus {
 
 /*---------------------------------------
   Mobile Responsive styles              
+/*---------------------------------------
+  Mobile Responsive styles              
 -----------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 1024px) {
   #home {
-    height: 70vh;
+    height: 60vh;
   }
 }
 
@@ -542,6 +544,8 @@ a:hover, a:active, a:focus {
     margin-bottom: 5px;
   }
 
+
+
 }
 
 
@@ -554,8 +558,15 @@ a:hover, a:active, a:focus {
   .about-thumb .social-icon {
     margin-bottom: 15px;
   }
+  h1{
+    font-size:35px;
+  }
+  h2{
+    font-size:30px;
+  }
 
 }
+
 
 @media (max-width: 357px) {
 
