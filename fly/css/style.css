@@ -57,14 +57,14 @@ h4 {
 
 p {
     color: #3d3d3f;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 30px;
     letter-spacing: 0.2px;
 }
 
 
-.word_box{
+.word_box,h5{
   width:80%;
   margin:auto;
   padding:15px;
@@ -72,28 +72,25 @@ p {
   text-align: left;
 }
 
-
-
-.bold_color_1{
-  color:#AA1945;
+#bold_color_1{
+  font-family: 'lora', sans-serif;
+  color:#3d3d3f;
   font-size:21px;
   line-height: 40px;
+  font-weight: 500;
 }
 
-.
-
-
-.bold_color_4{
-  color: #3d3d3f;
+#bold_color_2{
+  color: #AA1945;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 300;
 }
 
-.bold_color_5{
-  font-weight:900;
-  color: #3d3d3f;
+#bold_color_3{
+  color: #AA1945;
+  font-size: 18px;
+  font-weight: 600;
 }
-
 .word_box_title{
   color: #575757;
   font-size: 19px;
@@ -108,10 +105,16 @@ p {
   margin-top: 0px;
 }
 
-h3,h4{
+h3,h4,h5{
   font-family: 'lora', sans-serif;
 }
 
+h5{
+  color:#3d3d3f;
+  font-size:21px;
+  line-height: 60px;
+  font-weight: 500;
+}
 
 /*---------------------------------------
   Buttons
@@ -227,7 +230,7 @@ hr{
   width: 40%;
   max-width: 800px;
   float: right;
-  padding-top: 40px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 /*---------------------------------------
@@ -399,6 +402,19 @@ img{
   background-color: white;
   margin-top: 30px;
 }
+
+word_box{
+  text-align:center;
+}
+ .project_left{
+   width:100%;
+ }
+
+ .project_right{
+   width:100%;
+   float:left;
+   text-align:center;
+ }
 
 }
 
