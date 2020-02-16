@@ -113,7 +113,21 @@ h3,h4{
   font-family: 'lora', sans-serif;
 }
 
-
+.emma_color{
+  color: #539AB4;
+  font-size: 19px;
+  font-weight:900;
+}
+.dean_color{
+    color: #B45374;
+    font-size: 19px;
+    font-weight:900;
+  }
+.jade_color{
+      color: #D25541;
+      font-size: 19px;
+      font-weight:900;
+    }
 /*---------------------------------------
   Buttons
 -----------------------------------------*/
