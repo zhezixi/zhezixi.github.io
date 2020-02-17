@@ -48,10 +48,18 @@ h3 {
 }
 
 h4 {
-  color:#AA1945;
+  color:#D55858;
   font-size:23px;
   line-height: 40px;
   margin:auto;
+}
+
+h5 {
+  width:90%;
+  font-size:21px;
+  margin:auto;
+  padding:15px;
+  line-height: 30px;
 }
 
 
