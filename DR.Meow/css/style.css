@@ -110,6 +110,16 @@ p {
   margin-top: 0px;
 }
 
+.word_box_quote{
+  width:75%;
+  text-align: center;
+  margin:auto;
+  font-size: 18px;
+  color:#539AB4;
+  weight:400;
+
+}
+
 .word_box_title_smaller{
   color: #575757;
   font-size: 17px;
