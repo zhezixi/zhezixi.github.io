@@ -11,7 +11,7 @@ body {
 	padding-top: 81px
 }
 /*---------------------------------------
-  Navigation section              
+  Navigation section
 -----------------------------------------*/
 
 .custom-navbar {
@@ -254,6 +254,7 @@ body {
 	-webkit-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out
 }
+
 #projects.related .panel {
 	margin-right: 30px
 }
