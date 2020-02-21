@@ -193,6 +193,7 @@ hr{
 .overview_image {
     width: 80%;
     height: 70vh;
+    margin: auto;
     background-color:#f7f7f7;
     background-image:url('../images/allpresent.png');
     background-repeat:no-repeat;
