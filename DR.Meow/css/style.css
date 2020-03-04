@@ -275,9 +275,10 @@ hr{
 
 
 img{
-    width: 100%;
-    margin-top:40px;
-  }
+  width: 100%;
+  margin-top:40px;
+  margin:auto;
+      }
 
 img.main{
   display: block;

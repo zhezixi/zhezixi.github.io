@@ -267,10 +267,15 @@ hr{
 
 
 img{
-    width: 100%;
-    margin-top:40px;
-  }
+  width: 100%;
+  margin-top:40px;
+  margin:auto;
+    }
 
+img.main{
+  width:85%;
+  display:block;
+    }
 
 
 .image_left{
