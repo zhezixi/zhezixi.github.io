@@ -43,8 +43,9 @@ h3 {
   text-align: center;
   font-size: 25px;
   font-weight: 900;
-  margin-top: 20px;
+  margin-top: 40px;
   line-height: 50px;
+  margin-bottom:30px;
 }
 
 h4 {
@@ -70,6 +71,7 @@ p {
   padding:15px;
   line-height: 30px;
   text-align: left;
+  margin-bottom:40px;
 }
 
 #bold_color_1{
