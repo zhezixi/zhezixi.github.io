@@ -49,7 +49,7 @@ h3 {
 }
 
 h4 {
-  color:#D55858;
+  color:#C7282E;
   font-size:23px;
   line-height: 40px;
   font-weight: bolder;
@@ -70,7 +70,7 @@ h5 {
 }
 
 h6{
-  color: #797979;
+  color: #575757;
   font-size: 16px;
   font-weight: normal;
 }
@@ -95,7 +95,7 @@ p {
 
 
 .bold_color_1{
-  color:#AA1945;
+  color:#C7282E;
   font-size:21px;
   line-height: 40px;
 }
@@ -434,6 +434,18 @@ img.main{
         padding-bottom: 50px
     }
 
+    footer[role="footer"] .copy-right {
+        text-align: center;
+        display: block;
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+
+
+
+/*===== future styles ===*/
+
         footer[role="footer"] > h1 a {
             margin: 0 auto;
             display: block;
@@ -494,14 +506,6 @@ img.main{
                 footer[role="footer"] ul[role="social-icons"] > li:hover a {
                     background-color: #e77e96
                 }
-
-        footer[role="footer"] .copy-right {
-            text-align: center;
-            display: block;
-            font-size: 12px;
-            line-height: 13px;
-            color: #9c9c9c
-        }
 
 /*---------------------------------------
   Social icon

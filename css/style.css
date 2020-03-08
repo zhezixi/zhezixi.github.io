@@ -47,13 +47,13 @@ h3 {
 }
 
 h4 {
-  color: #797979;
+  color: #575757;
   font-size: 18px;
   font-weight: normal;
 }
 
 p {
-    color: #878787;
+    color: #575757;
     font-size: 16px;
     font-weight: 300;
     line-height: 25px;
@@ -480,6 +480,24 @@ a:hover, a:active, a:focus {
 .social-icon li a:hover {
   background: #d7b065;
   transform: scale(1.1);
+}
+
+/*---------------------------------------
+  footer
+/*---------------------------------------
+  footer
+-----------------------------------------*/
+footer[role="footer"] .copy-right {
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    line-height: 13px;
+}
+
+footer[role="footer"] {
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 50px
 }
 
 
