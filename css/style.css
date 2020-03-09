@@ -40,10 +40,11 @@ h2 {
 }
 
 h3 {
-  color: #575757;
-  font-size: 23px;
-  line-height: 40px;
-  margin-top: 0px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 h4 {
