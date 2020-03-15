@@ -37,6 +37,13 @@ h2 {
   line-height: 52px;
 }
 
+h2.cats{
+  text-align:left;
+  padding-left:200px;
+  padding-bottom:30px;
+
+}
+
 
 h3 {
   text-align: center;
@@ -69,6 +76,8 @@ p {
 
 
 
+
+
 /*---------------------------------------
   Buttons
 -----------------------------------------*/
@@ -77,7 +86,7 @@ hr{
     width: 100%;
     border-width: 0;
     border-top: 1px solid #E9E9E9;
-    margin: 20px 0;
+    margin-top: 50px;
 }
 
 
@@ -116,12 +125,9 @@ hr{
 
 
 
-
 /*---------------------------------------
-    project-DETAILS
+    img styles
 -----------------------------------------*/
-
-
 
 img{
   width: 100%;
@@ -134,21 +140,23 @@ img.main{
   width:85%;
 }
 
+img:nth-child(2n+1){
+  border:solid 1px #5885;
+}
 
-/*---------------------------------------
-  Pre loader section
------------------------------------------*/
 /*---------------------------------------
   grid
 -----------------------------------------*/
 .intro{
-  height: 150 vh;
   display: grid;
   grid-template-columns: 20px auto 40px auto auto 20px;
   grid-template-rows:30px auto auto auto auto auto;
   grid-gap: 10px;
   padding: 200px;
+  padding-bottom:30px
 }
+
+
 .intro_left{
   grid-column: 1 / span 2;
   grid-row: 3 / span 1;
@@ -163,6 +171,27 @@ img.main{
   grid-column: 1/ -1;
   grid-row: 5/ span 1;
 
+}
+
+/*---------------------------------------
+  flex section
+-----------------------------------------*/
+
+
+.catphoto{
+  display:flex;
+  align-items:center;
+  flex-direction: row;
+  flex-flow:wrap;
+  padding:200px;
+  padding-top:0px;
+}
+
+.catphoto > img{
+  margin: 5px;
+  width: 150px;
+  border-radius: 3%;
+  filter: grayscale(20%);
 }
 
 /*---------------------------------------
@@ -279,17 +308,17 @@ img.main{
 
     /*===== footer ===*/
 
-    footer[role="footer"] {
-        background-color: #f2f2f2;
-        padding-top: 50px;
-        padding-bottom: 50px
+    footer{
+      background-color: #f2f2f2;
+      padding-top: 50px;
+      padding-bottom: 50px
     }
 
-    footer[role="footer"] .copy-right {
-        text-align: center;
-        display: block;
-        font-size: 12px;
-        line-height: 13px;
+    p.copy-right {
+      text-align: center;
+      display: block;
+      font-size: 12px;
+      line-height: 13px;
     }
 
 
@@ -307,10 +336,6 @@ img.main{
 
   @media (min-width: 768px) and (max-width: 1023px) {
 
-  #home {
-      height: 100vh;
-    }
-
 
   h1{
     font-size:35px;
@@ -322,72 +347,64 @@ img.main{
     font-size:30px;
   }
 
-  .intro{
-  height: 150 vh;
-  display: grid;
-  grid-template-columns: 20px auto 40px auto auto 20px;
-  grid-template-rows:50px auto auto auto auto auto;
-  grid-gap: 10px;
+h2.cats{
+  text-align:left;
+  padding-left:100px;
+  padding-bottom:20px;
+
+}
+
+.intro{
   padding: 100px;
-}
-.intro_left{
-  grid-column: 1 / span 2;
-  grid-row: 3 / span 1;
-}
-
-.intro_right{
-  grid-column: 4 / span 3;
-  grid-row: 3 / span 1;
-}
-
-.under{
-  grid-column: 1/ -1;
-  grid-row: 5/ span 1;
+  padding-bottom:0px;
 
 }
+
+.catphoto{
+  display:flex;
+  align-items:center;
+  flex-direction: row;
+  flex-flow:wrap;
+  padding:100px;
+  padding-top:0px;
+}
+
+.catphoto > img{
+  margin: 5px;
+  width: 130px;
+  border-radius: 3%;
+  filter: grayscale(20%);
+}
+
+
 }
 
 
 
 @media (max-width: 768px) {
-  #home {
-      height: 100vh;
-    }
 
 .intro{
-  height: 150 vh;
-  display: grid;
-  grid-template-columns: 20px auto 40px auto auto 20px;
-  grid-template-rows:50px auto auto auto auto auto;
-  grid-gap: 10px;
-  padding: 50px;
-}
-.intro_left{
-  grid-column: 1 / span 2;
-  grid-row: 3 / span 1;
+  padding: 100px;
+  padding-bottom:0px;
 }
 
-.intro_right{
-  grid-column: 4 / span 3;
-  grid-row: 3 / span 1;
-}
-
-.under{
-  grid-column: 1/ -1;
-  grid-row: 5/ span 1;
-
-}
 
 h1{
   font-size:30px;
   margin:25px;
-
   }
 
 
 h2{
   font-size:25px;
   }
+
+h2.cats{
+  text-align:left;
+  padding-left:100px;
+  padding-bottom:30px;
+
+}
 
 p{
   font-size:17px;
@@ -424,6 +441,16 @@ p{
     text-align: center;
   }
 
+.catphoto{
+  padding:100px;
+  padding-top:0px;
+}
+  .catphoto > img{
+  width: 130px;
+}
+
+
+
 }
 
 
@@ -443,13 +470,6 @@ p{
   margin-top: 25px;
 }
 
-h1{
-  font-size: 21px;
-}
-
-h2{
-  font-size: 19px;
-}
 
 p{
   line-height: 22px;
@@ -473,5 +493,9 @@ p{
   grid-row: 3 / span 1;
 }
 
+
+.catphoto > img{
+  width: 125px;
+}
 
 }

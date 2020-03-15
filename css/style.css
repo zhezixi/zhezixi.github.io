@@ -401,7 +401,11 @@ a:hover, a:active, a:focus {
   border-radius: 5px;
 }
 
-
+img {
+    width: 100%;
+    margin-top: 40px;
+    margin: auto;
+}
 
 /*---------------------------------------
   Contact section
@@ -488,20 +492,18 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
   footer
 -----------------------------------------*/
-footer[role="footer"] .copy-right {
-    text-align: center;
-    display: block;
-    font-size: 12px;
-    line-height: 13px;
+footer{
+  background-color: #f2f2f2;
+  padding-top: 50px;
+  padding-bottom: 50px
 }
 
-footer[role="footer"] {
-    background-color: #f2f2f2;
-    padding-top: 50px;
-    padding-bottom: 50px
+p.copy-right {
+  text-align: center;
+  display: block;
+  font-size: 12px;
+  line-height: 13px;
 }
-
-
 /*---------------------------------------
   Mobile Responsive styles
 /*---------------------------------------
