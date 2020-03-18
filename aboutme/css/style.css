@@ -452,14 +452,13 @@ img:nth-child(2n+1){
 
   @media (min-width: 768px) and (max-width: 1023px) {
 
-
-  h1{
+h1{
     font-size:35px;
     margin:20px;
 
   }
 
-  h2{
+h2{
     font-size:30px;
   }
 
@@ -477,19 +476,12 @@ h2.cats, h2.more{
 }
 
 .catphoto{
-  display:flex;
-  align-items:center;
-  flex-direction: row;
-  flex-flow:wrap;
   padding:100px;
   padding-top:0px;
 }
 
 .catphoto > img{
-  margin: 5px;
   width: 130px;
-  border-radius: 3%;
-  filter: grayscale(20%);
 }
 
 
@@ -609,9 +601,17 @@ p{
   grid-row: 3 / span 1;
 }
 
-
+.catphoto{
+  padding:50px;
+  padding-top:0px;
+}
 .catphoto > img{
   width: 125px;
+}
+
+h2.cats{
+  padding-left:0;
+  text-align:center;
 }
 
 }
