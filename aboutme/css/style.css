@@ -75,6 +75,54 @@ p {
 
 
 
+/*---------------------------------------
+  Pre loader section
+-----------------------------------------*/
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: none repeat scroll 0 0 #ffffff;
+}
+
+.spinner {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  position: relative;
+}
+
+.spinner:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 65px;
+  height: 65px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  border-top-color: #f9f9f9;
+  animation: spinner .9s linear infinite;
+}
+
+@-webkit-@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
 
 
 
@@ -144,6 +192,94 @@ img:nth-child(2n+1){
   border:solid 1px #5885;
 }
 
+
+/*---------------------------------------
+  flex section
+-----------------------------------------*/
+
+.spare{
+  display:flex;
+  align-items:center;
+  flex-direction: row;
+  flex-flow:wrap;
+  padding:200px;
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+.myphoto{
+  margin: 5px;
+  border-radius: 3%;
+
+}
+
+.catphoto{
+  display:flex;
+  align-items:center;
+  flex-direction: row;
+  flex-flow:wrap;
+  padding:200px;
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+.catphoto > img{
+  margin: 5px;
+  width: 180px;
+  border-radius: 3%;
+  filter: grayscale(20%);
+}
+
+/*---------------------------------------
+  flix section
+-----------------------------------------*/
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .content {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+
 /*---------------------------------------
   grid
 -----------------------------------------*/
@@ -173,26 +309,6 @@ img:nth-child(2n+1){
 
 }
 
-/*---------------------------------------
-  flex section
------------------------------------------*/
-
-
-.catphoto{
-  display:flex;
-  align-items:center;
-  flex-direction: row;
-  flex-flow:wrap;
-  padding:200px;
-  padding-top:0px;
-}
-
-.catphoto > img{
-  margin: 5px;
-  width: 150px;
-  border-radius: 3%;
-  filter: grayscale(20%);
-}
 
 /*---------------------------------------
   Navigation section
@@ -323,7 +439,7 @@ img:nth-child(2n+1){
 
 
 /*---------------------------------------
-  Social icon
+     flip
 -----------------------------------------*/
 
 /*---------------------------------------
@@ -347,7 +463,7 @@ img:nth-child(2n+1){
     font-size:30px;
   }
 
-h2.cats{
+h2.cats, h2.more{
   text-align:left;
   padding-left:100px;
   padding-bottom:20px;
