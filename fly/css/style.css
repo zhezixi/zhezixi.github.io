@@ -82,7 +82,7 @@ p {
   font-weight: 500;
 }
 
-#bold_color_2{
+span{
   color: #AA1945;
   font-size: 18px;
   font-weight: 300;
@@ -259,15 +259,6 @@ hr{
 
 
 
-.ideation{}
-
-.prototype{}
-
-.User_texting{}
-
-.iteration_redesign{}
-
-
 img{
   width: 100%;
   margin-top:40px;
@@ -297,10 +288,15 @@ img.main{
 
 
 /*---------------------------------------
-  Pre loader section
+  iframe
 -----------------------------------------*/
 
-
+iframe{
+  height:600px;
+  width:370px;
+  frameborder:0;
+  border: none;
+}
 /*---------------------------------------
   Navigation section
 -----------------------------------------*/
@@ -464,7 +460,13 @@ p.copy-right {
   margin-top: 30px;
 }
 
-word_box{
+
+}
+
+
+@media (max-width: 768px) {
+
+  word_box{
   text-align:center;
 }
  .project_left{
@@ -476,11 +478,6 @@ word_box{
    float:left;
    text-align:center;
  }
-
-}
-
-
-@media (max-width: 768px) {
 
   h1 {
     font-size: 30px;

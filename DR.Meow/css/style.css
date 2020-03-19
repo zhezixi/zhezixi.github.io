@@ -169,7 +169,7 @@ hr{
 }
 
 .button {
-  background: #d7b065;
+  background: #C7282E;
   border: none;
   border-radius: 50px;
   color: #ffffff;
@@ -213,12 +213,6 @@ hr{
     top: -80px;
 }
 
-.container{
-  /*display:grid;*/
-  grid-template-rows:30px,100px,repeat(7 auto) 50px 30px;
-  grid-template-columns: 20px repeat(3 auto) 20px;
-  margin:auto;
-}
 
 .title{
   margin-top:100px;

@@ -49,10 +49,11 @@ h3 {
 }
 
 h4 {
-  color:#DA6A13;
+  color:#1D77B9;
   font-size:21px;
   line-height: 40px;
   margin:auto;
+  font-weight: bold;
 }
 
 
@@ -87,13 +88,13 @@ footer p {
 }
 
 span{
-  color: #DA6A13;
+  color: #1D77B9;
   font-size: 18px;
   font-weight: 300;
 }
 
 #bold_color_3{
-  color: #DA6A13;
+  color: #1D77B9;
   font-size: 18px;
   font-weight: 600;
 }
@@ -111,9 +112,7 @@ span{
   margin-top: 0px;
 }
 
-h3,h4,h5{
-  font-family: 'lora', sans-serif;
-}
+
 
 h5{
   color:#3d3d3f;
@@ -123,7 +122,7 @@ h5{
 }
 
 h6{
-  color: #797979;
+  color: #575757;
   font-size: 16px;
   font-weight: normal;
 }
