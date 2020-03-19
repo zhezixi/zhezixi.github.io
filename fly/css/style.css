@@ -53,6 +53,7 @@ h4 {
   font-size:21px;
   line-height: 40px;
   margin:auto;
+  font-weight: bold;
 }
 
 
@@ -107,9 +108,6 @@ span{
   margin-top: 0px;
 }
 
-h3,h4,h5{
-  font-family: 'lora', sans-serif;
-}
 
 h5{
   color:#3d3d3f;
@@ -465,6 +463,9 @@ p.copy-right {
 
 
 @media (max-width: 768px) {
+  .overview_image {
+    height: 50vh;
+  }
 
   word_box{
   text-align:center;
@@ -517,9 +518,18 @@ p.copy-right {
 
 
 @media (max-width: 580px) {
+  .overview_image {
+    height: 30vh;
+  }
 
-  background-color: white;
-  margin-top: 25px;
+  .project_d_left{
+  width:100%;
 }
+
+.project_d_right{
+  width:100%;
+  float:left;
+}
+
 
 }

@@ -449,77 +449,25 @@ p.copy-right {
   Mobile Responsive styles
 -----------------------------------------*/
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  #home {
-    height: 50vh;
-  }
-  .design_process_overview{
-  width: 100%;
+@media (max-width: 1024px){
 
-  background-color: white;
-  margin-top: 30px;
-}
 
 word_box{
   text-align:center;
 }
- .project_left{
-   width:100%;
- }
-
- .project_right{
-   width:100%;
-   float:left;
-   text-align:center;
- }
 
 }
 
-@media (min-width: 667px) and (max-width: 767px) {
-  #home {
-    height: 70vh;
-  }
-}
-
-@media (min-width: 568px) and (max-width: 665px) {
-  #home {
-    height: 190vh;
-  }
-}
-
-@media (max-width: 994px) {
-
- h1 {font-size: 33px;}
-
- #work .work-thumb {
-  margin-top: 30px;
- }
-
- .project_d_left{
-   width:100%;
- }
-
- .project_d_right{
-   width:100%;
-   float:left;
- }
-
- .project_left{
-   width:100%;
- }
-
- .project_right{
-   width:100%;
-   float:left;
- }
-
- #work .work-thumb {
-     margin-top: 30px;
- }
-}
 
 
 @media (max-width: 768px) {
+  .overview_image {
+    height: 50vh;
+  }
+
+  word_box{
+  text-align:center;
+}
 
   h1 {
     font-size: 30px;
@@ -555,13 +503,23 @@ word_box{
     margin-bottom: 5px;
   }
 
+    .project_d_left{
+  width:100%;
+}
+
+.project_d_right{
+  width:100%;
+  float:left;
+}
+
+
 }
 
 
 @media (max-width: 580px) {
+  .overview_image {
+    height: 30vh;
+  }
 
-  background-color: white;
-  margin-top: 25px;
-}
 
 }

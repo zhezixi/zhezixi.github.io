@@ -21,7 +21,7 @@
 	left: 0;
 	width: 40px;
 	height: 480px;
-	background-image: url(/images/fancybox/fancybox.png)
+
 }
 #fancybox-overlay {
 	position: fixed;
@@ -84,7 +84,6 @@
 	right: 10px;
 	width: 30px;
 	height: 30px;
-	background-image: url(/images/fancybox/close.gif);
 	background-position: 0 0;
 	cursor: pointer;
 	z-index: 12000;
@@ -160,7 +159,6 @@
 }
 #fancybox-title-left {
 	padding-left: 15px;
-	background-image: url(/images/fancybox/fancybox.png);
 	background-position: -40px -90px;
 	background-repeat: no-repeat
 }
@@ -173,7 +171,6 @@
 }
 #fancybox-title-right {
 	padding-left: 15px;
-	background-image: url(/images/fancybox/fancybox.png);
 	background-position: -55px -90px;
 	background-repeat: no-repeat
 }
@@ -184,7 +181,6 @@
 	width: 35%;
 	cursor: pointer;
 	outline: none;
-	background-image: url(/images/fancybox/blank.gif);
 	z-index: 11000;
 	display: none
 }
@@ -206,11 +202,9 @@
 	display: block
 }
 #fancybox-left-ico {
-	background-image: url(/images/fancybox/fancy_nav_left.png);
 	background-position: 0 0
 }
 #fancybox-right-ico {
-	background-image: url(/images/fancybox/fancy_nav_right.png);
 	background-position: 0 0
 }
 #fancybox-left:hover, #fancybox-right:hover {
@@ -236,50 +230,42 @@
 	top: -20px;
 	left: 0;
 	width: 100%;
-	background-image: url(/images/fancybox/fancybox-x.png)
 }
 #fancy-bg-ne {
 	top: -20px;
 	right: -20px;
-	background-image: url(/images/fancybox/fancybox.png);
 	background-position: -40px -162px
 }
 #fancy-bg-e {
 	top: 0;
 	right: -20px;
 	height: 100%;
-	background-image: url(/images/fancybox/fancybox-y.png);
 	background-position: -20px 0
 }
 #fancy-bg-se {
 	bottom: -20px;
 	right: -20px;
-	background-image: url(/images/fancybox/fancybox.png);
 	background-position: -40px -182px
 }
 #fancy-bg-s {
 	bottom: -20px;
 	left: 0;
 	width: 100%;
-	background-image: url(/images/fancybox/fancybox-x.png);
 	background-position: 0 -20px
 }
 #fancy-bg-sw {
 	bottom: -20px;
 	left: -20px;
-	background-image: url(/images/fancybox/fancybox.png);
 	background-position: -40px -142px
 }
 #fancy-bg-w {
 	top: 0;
 	left: -20px;
 	height: 100%;
-	background-image: url(/images/fancybox/fancybox-y.png)
 }
 #fancy-bg-nw {
 	top: -20px;
 	left: -20px;
-	background-image: url(/images/fancybox/fancybox.png);
 	background-position: -40px -122px
 }
 #fancybox-loading.fancybox-ie div {
@@ -288,7 +274,6 @@ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/fancybox/
 }
 .fancybox-ie #fancybox-close {
 	background: 0 0;
-filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/fancybox/close.gif', sizingMethod='scale')
 }
 .fancybox-ie #fancybox-title-over {
 	background: 0 0;
@@ -309,11 +294,10 @@ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/fancybox/
 }
 .fancybox-ie #fancybox-left-ico {
 	background: 0 0;
-filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/fancybox/fancy_nav_left.png', sizingMethod='scale')
+
 }
 .fancybox-ie #fancybox-right-ico {
 	background: 0 0;
-filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/fancybox/fancy_nav_right.png', sizingMethod='scale')
 }
 .fancybox-ie .fancy-bg {
 	background: 0 0!important
