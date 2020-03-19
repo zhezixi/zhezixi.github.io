@@ -533,3 +533,19 @@ p.copy-right {
 
 
 }
+
+@media (prefers-reduced-motion: reduce) {
+ button, #work{
+  animation: none;
+  -ms-animation: none;
+  -webkit-animation: none;
+
+  animation-delay: 0s;
+  -ms-animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+
+  animation-duration: none;
+  -ms-animation-iteration-count: 0;
+  -webkit-animation-iterayion-count: 0;
+ }
+}
